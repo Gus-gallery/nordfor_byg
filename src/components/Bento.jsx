@@ -3,7 +3,7 @@ import React from 'react'
 const Bento = () => {
   return (
     <section id="bento" className="container mx-auto py-18 px-5">
-      <h1 className="text-2xl font-semibold pb-12">Byggeri kræver papirarbejde, kontakter og kendskab til mange procedurer og regler, hvilket kan være svært at overskue uden den rigtige vejledning.</h1>
+      <h1 className="text-2xl font-semibold text-center mx-auto pb-12 lg:w-160">Byggeri kræver papirarbejde, kontakter og kendskab til mange procedurer og regler, hvilket kan være svært at overskue uden den rigtige vejledning.</h1>
       <img src="" />
 
       <div className="masonry grid grid-cols-1 lg:grid-cols-2 gap-6 mt-12 text-primary">
