@@ -1,6 +1,11 @@
 @import "tailwindcss";
 
 @font-face {
+  font-family: "Light";
+  src: url("/fonts/light.ttf");
+}
+
+@font-face {
   font-family: "Regular";
   src: url("/fonts/regular.ttf");
 }
@@ -18,6 +23,17 @@
 @font-face {
   font-family: "Bold";
   src: url("/fonts/bold.ttf");
+}
+
+@theme {
+  --color-primary: #3F3D3B;
+  --color-secondary: #782401;
+  --color-backgroundsecondary: #EDEAE7;
+  --font-regular: "Regular";
+  --font-medium: "Medium";
+  --font-semibold: "SemiBold";
+  --font-bold: "Bold";
+  --font-light: "light";
 }
 
 :root {
