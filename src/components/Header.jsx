@@ -5,7 +5,7 @@ const Header = () => {
     const label = ["Ydelser", "Om os"];
 
   return (
-    <header className="sticky">
+    <header className="sticky top-0 z-50">
         <nav className="min-w-screen p-4 px-6 container mx-auto flex flex-wrap items-center justify-between shadow-lg bg-backgroundsecondary">
             <h3 className="text-lg text-primary font-semibold">
                 Nordfor Byggerådgivning
