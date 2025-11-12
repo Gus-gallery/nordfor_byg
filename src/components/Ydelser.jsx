@@ -2,7 +2,7 @@ import React from 'react'
 
 const Ydelser = () => {
   return (
-    <section id="ydelser" className="container mx-auto px-18">       
+    <section id="ydelser" className="container mx-auto px-18 mt-24">       
         <div className="mb-6 items-center justify-center text-center">
           <h1 className="font-bold text-3xl text-primary">
               Ydelser
@@ -28,12 +28,12 @@ const Ydelser = () => {
                 <p className="font-regular text-lg">Ved skader i boligen opstår der ofte komplikationer. Her er det vigtigt at søge hjælp fra en ekspert, der kan hjælpe dig på rette vej.</p>
             </div>
           </div>
-          <div className="lg:w-1/2 sm:w-full flex sm:items-center sm:justify-center sm:-ml-6 lg:-mt-6 lg:pl-3 sm:pt-6 sm:flex-row"> 
+          <div className="lg:w-1/2 sm:w-full sm:scale-75 lg:scale-100 flex sm:items-center sm:justify-center sm:-ml-6 lg:-mt-30 lg:pl-3 sm:-mt-12 sm:-mb-30 sm:flex-row"> 
             <img src="/by.png" className="object-cover h-182 rounded-sm"/>
           </div> 
         </div>
-        <div className="mb-12 items-center justify-center text-center">
-          <h1 className="mt-12 font-semibold text-2xl">
+        <div className="mb-24 items-center justify-center text-center">
+          <h1 className="mt-24 font-semibold text-2xl">
             Og meget mere...
           </h1>
           <p className="font-regular text-lg">

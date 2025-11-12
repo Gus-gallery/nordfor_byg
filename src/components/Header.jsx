@@ -2,7 +2,18 @@ import React from 'react'
 
 const Header = () => {
 
-    const label = ["Ydelser", "Om os"];
+    const label = [
+        { name: "Om os", id: "bento" },
+        { name: "Ydelser", id: "ydelser" },
+        { name: "Kontakt", id: "footer"},
+    ];
+
+    const handleScroll = (id) => {
+        const section = document.getElementById(id);
+        if (section) {
+          section.scrollIntoView({ behavior: "smooth" });
+        }
+      };
 
   return (
     <header className="sticky top-0 z-50">
@@ -13,11 +24,12 @@ const Header = () => {
 
             <ul className="flex flex-wrap md:flex-row justify-end items-center font-regular gap-12 text-base">
                 {label.map((label) => (
-                    <li key={label}>
+                    <li key={label.id}>
                         <p
+                        onClick={() => handleScroll(label.id)}
                         className="text-primary opacity-60 cursor-pointer hover:opacity-100 transition-all duration-300 ease-in-out" 
                         >
-                            {label}
+                            {label.name}
                         </p>
                     </li>
                 ))}
