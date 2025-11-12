@@ -25,7 +25,7 @@ const Bento = () => {
           <div className="relative bg-[url(/bento_bg.png)] bg-no-repeat bg-bottom bg-cover p-10 rounded-sm border-4 border-backgroundsecondary">
             <div className="absolute inset-0 bg-backgroundsecondary/60"></div> {/* 40% sort lag */}
             
-            <p className="relative z-10 font-medium text-xl text-stone-800">
+            <p className="relative z-10 font-medium text-xl text-stone-900">
             Vi er bygnings- og håndværksnørder, og vi kommer med hurtige, ærlige svar på dine spørgsmål i forbindelse med byggeriet.
             </p>
           </div>
