@@ -4,6 +4,7 @@ import Hero from "./components/Hero"
 import Bento from "./components/Bento"
 import Ydelser from "./components/Ydelser"
 import Ring from "./components/Ring"
+import Footer from "./components/Footer"
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Bento />
       <Ring />
       <Ydelser />
+      <Footer />
     </main>
   )
 }
