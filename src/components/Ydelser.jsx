@@ -29,7 +29,7 @@ const Ydelser = () => {
             </div>
           </div>
           <div className="lg:w-1/2 sm:w-full sm:scale-75 lg:scale-100 flex sm:items-center sm:justify-center sm:-ml-6 lg:-mt-30 lg:pl-3 sm:-mt-12 sm:-mb-30 sm:flex-row"> 
-            <img src="/by.png" className="object-cover h-182 rounded-sm"/>
+            <img src="/nordfor_byg/by.png" className="object-cover h-182 rounded-sm"/>
           </div> 
         </div>
         <div className="mb-24 items-center justify-center text-center">
