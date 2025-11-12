@@ -12,7 +12,7 @@ const Hero = () => {
             <h4 className="mt-2 font-semibold text-lg text-secondary">
                 Byggerådgivning og privat vejledning til både store og små projekter
             </h4>
-            <button className="mt-12 font-bold text-lg py-1.5 px-3.5 text-stone-800 bg-backgroundsecondary rounded-lg cursor-pointer transition-all duration-300 ease-in-out hover:bg-stone-800 hover:text-backgroundsecondary hover:drop-shadow-lg">
+            <button className="mt-6 font-bold text-lg py-1.5 px-3.5 text-stone-800 bg-backgroundsecondary rounded-lg cursor-pointer transition-all duration-300 ease-in-out hover:bg-stone-800 hover:text-backgroundsecondary hover:drop-shadow-lg">
                 Bestil konsultation
             </button>
         </div>
