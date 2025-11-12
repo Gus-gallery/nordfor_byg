@@ -9,7 +9,7 @@ const Bento = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-12 px-12 text-primary">
         {/*VENSTRE SIDE*/}
         <div className="flex flex-col justify-between gap-6 opacity-100 -translate-y-6">
-          <div className="bg-backgroundsecondary p-10 rounded-sm border-4 border-secondary">
+          <div className="bg-backgroundsecondary p-10 rounded-sm border-2 border-secondary">
             <h2 className="text-2xl font-semibold">Hos Nordfor Byggerådgivning får du:</h2>
             <p className="font-regular text-xl">Privat og professionel vejledning fra en byggerådgiver med årtiers erfaring inden for byggeri. Nordfor sørger for at have det store overblik, så byggeriet bliver fulgt til dørs, uden for meget besvær. </p>
           </div>
@@ -22,8 +22,8 @@ const Bento = () => {
         </div>
         {/*HØJRE SIDE*/}
         <div className="flex flex-col justify-between gap-6 opacity-100 -translate-y-6">
-          <div className="relative bg-[url(/bento_bg.png)] bg-no-repeat bg-bottom bg-cover p-10 rounded-sm border-4 border-backgroundsecondary">
-            <div className="absolute inset-0 bg-backgroundsecondary/60"></div> {/* 40% sort lag */}
+          <div className="relative bg-[url(/bento_bg.png)] bg-no-repeat bg-bottom bg-cover p-10 rounded-sm border-2 border-backgroundsecondary">
+            <div className="absolute inset-0 bg-backgroundsecondary/60"></div> 
             
             <p className="relative z-10 font-medium text-xl text-stone-900">
             Vi er bygnings- og håndværksnørder, og vi kommer med hurtige, ærlige svar på dine spørgsmål i forbindelse med byggeriet.
