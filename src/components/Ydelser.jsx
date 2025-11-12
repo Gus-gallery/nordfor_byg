@@ -2,15 +2,15 @@ import React from 'react'
 
 const Ydelser = () => {
   return (
-    <section id="ydelser" className="container mx-auto px-18 mt-24">       
+    <section id="ydelser" className="container mx-auto px-6 lg:px-12 lg:px-18 mt-24">       
         <div className="mb-6 items-center justify-center text-center">
           <h1 className="font-bold text-3xl text-primary">
               Ydelser
           </h1>
           <p className="font-regular text-lg">Vi tilbyder en bred vifte af ydelser og hjælp i forbindelse med bolig og byggeri.</p>
         </div>  
-        <div className="flex items-center justify-center lg:flex-row sm:flex-col">   
-          <div className="flex flex-col lg:mr-1.5 lg:w-1/2 sm:w-100%">
+        <div className="flex items-center justify-center lg:flex-row flex-col">   
+          <div className="flex flex-col lg:mr-1.5 lg:w-1/2 w-100%">
             <div className="bobbel flex flex-col pb-6"> 
                 <h1 className="font-semibold text-2xl">Assistance ved køb af bolig</h1>
                 <p className="font-regular text-lg">Vi tilbyder rådgivning, når du skal ud og købe ny bolig, så alt går præcis som det skal, og du slipper for ubehagelige overraskelse.</p>
@@ -28,7 +28,7 @@ const Ydelser = () => {
                 <p className="font-regular text-lg">Ved skader i boligen opstår der ofte komplikationer. Her er det vigtigt at søge hjælp fra en ekspert, der kan hjælpe dig på rette vej.</p>
             </div>
           </div>
-          <div className="lg:w-1/2 sm:w-full sm:scale-75 lg:scale-100 flex sm:items-center sm:justify-center sm:-ml-6 lg:-mt-30 lg:pl-3 sm:-mt-12 sm:-mb-30 sm:flex-row"> 
+          <div className="lg:w-1/2 w-full scale-75 lg:scale-100 flex items-center justify-center -ml-6 lg:-mt-30 lg:pl-3 sm:-mt-12 sm:-mb-30 sm:flex-row"> 
             <img src="/nordfor_byg/by.png" className="object-cover h-182 rounded-sm"/>
           </div> 
         </div>

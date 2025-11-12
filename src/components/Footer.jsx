@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <section id="footer">
-        <div className="bg-backgroundsecondary flex flex-row items-center justify-between mt-12 p-6 gap-6 py-12">
+        <div className="bg-backgroundsecondary flex flex-col lg:flex-row text-center lg:text-left items-center justify-between mt-12 gap-6 p-12">
           <div>
             <h3 className="text-lg font-regular text-stone-800">Kontakt</h3>
             <p className="font-light text-md text-primary">
