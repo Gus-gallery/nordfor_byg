@@ -23,7 +23,7 @@ const Bento = () => {
         {/*HØJRE SIDE*/}
         <div className="flex flex-col justify-between gap-6 opacity-100 -translate-y-6">
           <div className="relative bg-[url(/bento_bg.png)] bg-no-repeat bg-bottom bg-cover p-10 rounded-sm border-2 border-backgroundsecondary">
-            <div className="absolute inset-0 bg-backgroundsecondary/60"></div> 
+            <div className="absolute inset-0 bg-backgroundsecondary/70"></div> 
             
             <p className="relative z-10 font-light text-xl text-stone-900">
             Vi er bygnings- og håndværksnørder, og vi kommer med hurtige, ærlige svar på dine spørgsmål i forbindelse med byggeriet.
