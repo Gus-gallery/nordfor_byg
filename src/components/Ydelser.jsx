@@ -13,22 +13,22 @@ const Ydelser = () => {
           <div className="flex flex-col lg:mr-1.5 lg:w-1/2 w-100%">
             <div className="bobbel flex flex-col pb-6"> 
                 <h1 className="font-semibold text-2xl">Assistance ved køb af bolig</h1>
-                <p className="font-regular text-lg">Vi tilbyder rådgivning, når du skal ud og købe ny bolig, så alt går præcis som det skal, og du slipper for ubehagelige overraskelse.</p>
+                <p className="font-light text-lg">Vi tilbyder rådgivning, når du skal ud og købe ny bolig, så alt går præcis som det skal, og du slipper for ubehagelige overraskelse.</p>
             </div>
             <div className="bobbel mt-6 flex flex-col py-6"> 
                 <h1 className="font-semibold text-2xl">Plan til ombygning og renovering</h1>
-                <p className="font-regular text-lg">At renovere er ikke nemt, og det er ofte vigtigt, at tingene hverken bliver for dyre eller besværlige. Her vejleder vi gerne gennem hele projektet, så du slipper for det mest komplicerede detaljearbejde.</p>
+                <p className="font-light text-lg">At renovere er ikke nemt, og det er ofte vigtigt, at tingene hverken bliver for dyre eller besværlige. Her vejleder vi gerne gennem hele projektet, så du slipper for det mest komplicerede detaljearbejde.</p>
             </div>
             <div className="bobbel mt-6 flex flex-col py-6"> 
                 <h1 className="font-semibold text-2xl">Vejledning når i skal bygge nyt hus</h1>
-                <p className="font-regular text-lg">Lad en ekspert vejlede jer, så byggeriet bliver sat ordentligt i gang, hvorefter processen bliver nemmere.</p>
+                <p className="font-light text-lg">Lad en ekspert vejlede jer, så byggeriet bliver sat ordentligt i gang, hvorefter processen bliver nemmere.</p>
             </div>
             <div className="bobbel mt-6 flex flex-col py-6"> 
                 <h1 className="font-semibold text-2xl">Hjælp ved skader i bolig</h1>
-                <p className="font-regular text-lg">Ved skader i boligen opstår der ofte komplikationer. Her er det vigtigt at søge hjælp fra en ekspert, der kan hjælpe dig på rette vej.</p>
+                <p className="font-light text-lg">Ved skader i boligen opstår der ofte komplikationer. Her er det vigtigt at søge hjælp fra en ekspert, der kan hjælpe dig på rette vej.</p>
             </div>
           </div>
-          <div className="lg:w-1/2 w-full scale-75 lg:scale-100 flex items-center justify-center -ml-6 lg:-mt-30 lg:pl-3 sm:-mt-12 sm:-mb-30 sm:flex-row"> 
+          <div className="lg:w-1/2 w-full scale-0 lg:scale-100 flex items-center justify-center -ml-6 lg:-mt-30 lg:pl-3 -mt-155 sm:-mb-30 sm:flex-row"> 
             <img src="/nordfor_byg/by.png" className="object-cover h-182 rounded-sm"/>
           </div> 
         </div>
