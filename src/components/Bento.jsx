@@ -9,8 +9,8 @@ const Bento = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-12 lg:px-18 text-primary">
         {/*VENSTRE SIDE*/}
         <div className="flex flex-col justify-between gap-6 opacity-100 -translate-y-6">
-          <div className="bg-backgroundsecondary p-10 rounded-sm border-2 border-secondary">
-            <h2 className="text-2xl font-semibold">Hos Nordfor Byggerådgivning får du:</h2>
+          <div className="bg-backgroundsecondary p-10 rounded-sm">
+            <h2 className="text-2xl text-secondary font-semibold">Hos Nordfor Byggerådgivning får du:</h2>
             <p className="font-light text-xl">Privat og professionel vejledning fra en byggerådgiver med årtiers erfaring inden for byggeri. Nordfor sørger for at have det store overblik, så byggeriet bliver fulgt til dørs, uden for meget besvær. </p>
           </div>
           <div className="h-full bg-backgroundsecondary p-10 rounded-sm">
